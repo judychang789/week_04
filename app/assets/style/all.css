@@ -1002,7 +1002,7 @@ a:hover {
   font-size: 48px;
   line-height: 1.5;
   color: #000000;
-  border-left: #650300 8px solid;
+  border-left: #aa0601 8px solid;
   padding-left: 15px;
 }
 
@@ -1011,26 +1011,20 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .mainIn {
+    padding: 60px 0 90px;
+  }
   .mainIn .page {
     padding-top: 40px;
   }
 }
 
 @media (max-width: 414px) {
-  .mainIn .page {
-    padding-top: 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  .mainIn {
-    padding: 60px 0 90px;
-  }
-}
-
-@media (max-width: 414px) {
   .mainIn {
     padding: 28px 0 56px;
+  }
+  .mainIn .page {
+    padding-top: 24px;
   }
 }
 
@@ -1043,17 +1037,33 @@ a:hover {
   font-size: 32px;
 }
 
-.qaArea {
+.qaBg .qaArea {
   margin-top: 36px;
 }
 
+@media (max-width: 768px) {
+  .qaBg .qaArea {
+    margin-top: 33px;
+  }
+}
+
+@media (max-width: 414px) {
+  .qaBg h2 {
+    font-size: 20px;
+  }
+  .qaBg .qaArea {
+    margin-top: 24px;
+  }
+}
+
 .qaArea li {
-  padding: 0 0 32px;
+  margin-bottom: 32px;
 }
 
 .qaArea li h3 {
   font-size: 20px;
   font-weight: bolder;
+  margin-bottom: 16px;
 }
 
 .qaArea li p {
@@ -1062,26 +1072,27 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .qaArea {
-    padding: 0 0 24px;
+  .qaArea li {
+    margin-bottom: 24px;
   }
-  .qaArea h3 {
+  .qaArea li h3 {
     font-size: 20px;
   }
-  .qaArea p {
+  .qaArea li p {
     font-size: 16px;
     margin-left: 60px;
   }
 }
 
 @media (max-width: 414px) {
-  .qaArea {
-    padding-top: 20px;
+  .qaArea li {
+    margin-bottom: 20px;
   }
-  .qaArea h3 {
+  .qaArea li h3 {
     font-size: 16px;
+    margin-bottom: 8px;
   }
-  .qaArea p {
+  .qaArea li p {
     font-size: 14px;
     margin-left: 0px;
   }

@@ -6,40 +6,56 @@
     h2{
         font-size: 32px;
     }
-
+    .qaArea{   
+        margin-top: 36px;
+    }
+    @include iPad() {
+        .qaArea{   
+            margin-top: 33px;
+        }
+    }
+    @include iPhone6() {
+        h2{
+            font-size:$font-nl;
+        }
+        .qaArea{   
+            margin-top: 24px;
+        }
+    }
 }
 
 .qaArea{
-    margin-top: 36px;
     li{
-        padding: 0 0 32px;
+        margin-bottom: 32px;
         h3{
             font-size: $font-nl;
             font-weight: bolder;
+            margin-bottom: 16px;
         } 
         p{
             font-size: $font-sl;
             margin-left: 95px;
         }
-    }
-    @include iPad() {
-        padding: 0 0 24px;
-        h3{
-            font-size: $font-nl;
-        } 
-        p{
-            font-size:$font-sl;
-            margin-left: 60px;
+        @include iPad() {
+            margin-bottom: 24px;
+            h3{
+                font-size: $font-nl;                
+            } 
+            p{
+                font-size:$font-sl;
+                margin-left: 60px;
+            }
         }
-    }
-    @include iPhone6() {
-        padding-top: 20px;  
-        h3{
-            font-size: $font-sl;
-        } 
-        p{
-            font-size:$font-fl;
-            margin-left: 0px;
+        @include iPhone6() {  
+            margin-bottom: 20px;
+            h3{
+                font-size: $font-sl;
+                margin-bottom: 8px;
+            } 
+            p{
+                font-size:$font-fl;
+                margin-left: 0px;
+            }
         }
     }
 }
