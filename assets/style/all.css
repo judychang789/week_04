@@ -756,56 +756,62 @@ a {
     font-size: 48px;
     line-height: 1.5;
     color: #000000;
-    border-left: #650300 8px solid;
+    border-left: #aa0601 8px solid;
     padding-left: 15px; }
   .mainIn .page {
     padding-top: 60px; }
-    @media (max-width: 768px) {
-      .mainIn .page {
-        padding-top: 40px; } }
-    @media (max-width: 414px) {
-      .mainIn .page {
-        padding-top: 24px; } }
   @media (max-width: 768px) {
     .mainIn {
-      padding: 60px 0 90px; } }
+      padding: 60px 0 90px; }
+      .mainIn .page {
+        padding-top: 40px; } }
   @media (max-width: 414px) {
     .mainIn {
-      padding: 28px 0 56px; } }
+      padding: 28px 0 56px; }
+      .mainIn .page {
+        padding-top: 24px; } }
 
 .qaBg {
   color: #000000;
   line-height: 1.5; }
   .qaBg h2 {
     font-size: 32px; }
+  .qaBg .qaArea {
+    margin-top: 36px; }
+  @media (max-width: 768px) {
+    .qaBg .qaArea {
+      margin-top: 33px; } }
+  @media (max-width: 414px) {
+    .qaBg h2 {
+      font-size: 20px; }
+    .qaBg .qaArea {
+      margin-top: 24px; } }
 
-.qaArea {
-  margin-top: 36px; }
-  .qaArea li {
-    padding: 0 0 32px; }
-    .qaArea li h3 {
-      font-size: 20px;
-      font-weight: bolder;
-      margin-bottom: 16px; }
-    .qaArea li p {
-      font-size: 16px;
-      margin-left: 95px; }
-    @media (max-width: 768px) {
-      .qaArea li {
-        padding: 0 0 24px; }
-        .qaArea li h3 {
-          font-size: 20px; }
-        .qaArea li p {
-          font-size: 16px;
-          margin-left: 60px; } }
-    @media (max-width: 414px) {
-      .qaArea li {
-        padding-top: 20px; }
-        .qaArea li h3 {
-          font-size: 16px;
-          margin-bottom: 8px; }
-        .qaArea li p {
-          font-size: 14px;
-          margin-left: 0px; } }
+.qaArea li {
+  margin-bottom: 32px; }
+  .qaArea li h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 16px; }
+  .qaArea li p {
+    font-size: 16px;
+    margin-left: 95px; }
+  @media (max-width: 768px) {
+    .qaArea li {
+      margin-bottom: 24px; }
+      .qaArea li h3 {
+        font-size: 20px; }
+      .qaArea li p {
+        font-size: 16px;
+        margin-left: 60px; } }
+  @media (max-width: 414px) {
+    .qaArea li {
+      margin-bottom: 20px; }
+      .qaArea li h3 {
+        font-size: 16px;
+        margin-bottom: 8px; }
+      .qaArea li p {
+        font-size: 14px;
+        margin-left: 0px; } }
 
 /*# sourceMappingURL=all.css.map */
