@@ -275,7 +275,7 @@ img {
     .CommunityArea {
       margin: 20px -10px 0; } }
 
-.footerB {
+.footerCopyLink {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,7 +297,7 @@ img {
     .copyright {
       margin-bottom: 5px; } }
 
-ul.link_f {
+.link_f {
   margin: 0 -24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -307,13 +307,13 @@ ul.link_f {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
-  ul.link_f li {
+  .link_f li {
     padding: 0 24px; }
-    ul.link_f li a {
+    .link_f li a {
       font-size: 14px;
       color: #fff; }
   @media (max-width: 768px) {
-    ul.link_f {
+    .link_f {
       width: 100%;
       margin: 0px;
       display: block;
@@ -322,7 +322,7 @@ ul.link_f {
               align-items: unset;
       -ms-flex-wrap: unset;
           flex-wrap: unset; }
-      ul.link_f li {
+      .link_f li {
         padding: 5px 0px; } }
 
 .banner {
@@ -370,7 +370,7 @@ ul.link_f {
 .indexServiceBg {
   background-color: #FBF2F2;
   padding: 60px 0 80px; }
-  .indexServiceBg ul.indexService {
+  .indexServiceBg .indexService {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -381,36 +381,36 @@ ul.link_f {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: 0 -15px; }
-    .indexServiceBg ul.indexService li {
+    .indexServiceBg .indexService li {
       width: 25%;
       text-align: center;
       padding: 0 15px; }
   @media (max-width: 768px) {
-    .indexServiceBg ul.indexService {
+    .indexServiceBg .indexService {
       margin: 0 -15px -55px; }
-      .indexServiceBg ul.indexService li {
+      .indexServiceBg .indexService li {
         width: 50%;
         padding: 0 15px 55px; } }
   @media (max-width: 414px) {
-    .indexServiceBg ul.indexService {
+    .indexServiceBg .indexService {
       margin: 0 0px -40px; }
-      .indexServiceBg ul.indexService li {
+      .indexServiceBg .indexService li {
         width: 100%;
         padding: 0 0px 40px; } }
 
-ul.indexService img {
+.indexService img {
   width: 84px;
   height: 84px;
   margin: 0 auto; }
 
-ul.indexService h4 {
+.indexService h4 {
   color: #650300;
   font-size: 24px;
   margin-top: 24px;
   font-weight: bolder;
   display: inline-block; }
 
-ul.indexService p {
+.indexService p {
   color: #000000;
   font-size: 16px;
   margin-top: 8px;
@@ -418,9 +418,9 @@ ul.indexService p {
 
 .indexFrameBg {
   padding: 60px 0 80px; }
-  .indexFrameBg ul.indexFrame {
+  .indexFrameBg .indexFrame {
     margin: -16px 0; }
-    .indexFrameBg ul.indexFrame li {
+    .indexFrameBg .indexFrame li {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -430,26 +430,26 @@ ul.indexService p {
               flex-direction: row;
       padding: 16px 0;
       margin: 0 -30px; }
-      .indexFrameBg ul.indexFrame li:nth-child(2n) {
+      .indexFrameBg .indexFrame li:nth-child(2n) {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: reverse;
             -ms-flex-direction: row-reverse;
                 flex-direction: row-reverse; }
   @media (max-width: 768px) {
-    .indexFrameBg ul.indexFrame {
+    .indexFrameBg .indexFrame {
       margin: -10px 0; }
-      .indexFrameBg ul.indexFrame li {
+      .indexFrameBg .indexFrame li {
         padding: 10px 0;
         margin: 0 -15px; }
-        .indexFrameBg ul.indexFrame li:nth-child(2n) {
+        .indexFrameBg .indexFrame li:nth-child(2n) {
           -webkit-box-orient: horizontal;
           -webkit-box-direction: normal;
               -ms-flex-direction: row;
                   flex-direction: row; } }
   @media (max-width: 414px) {
-    .indexFrameBg ul.indexFrame {
+    .indexFrameBg .indexFrame {
       margin-bottom: -8px; }
-      .indexFrameBg ul.indexFrame li {
+      .indexFrameBg .indexFrame li {
         margin: 0 0px 0px;
         padding: 0 0 8px;
         position: relative; } }
