@@ -785,7 +785,8 @@ a {
     padding: 0 0 32px; }
     .qaArea li h3 {
       font-size: 20px;
-      font-weight: bolder; }
+      font-weight: bolder;
+      margin-bottom: 16px; }
     .qaArea li p {
       font-size: 16px;
       margin-left: 95px; }
@@ -801,7 +802,8 @@ a {
       .qaArea li {
         padding-top: 20px; }
         .qaArea li h3 {
-          font-size: 16px; }
+          font-size: 16px;
+          margin-bottom: 8px; }
         .qaArea li p {
           font-size: 14px;
           margin-left: 0px; } }
