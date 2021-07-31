@@ -49,6 +49,47 @@ a{
   }
 }
 
+
+.mainIn{
+  padding: 96px 0 160px;
+
+  // 內頁大標
+  h1.inTit{
+    font-size: $font-xl;
+    line-height: 1.5;
+    color: $info;
+    border-left: $accent 8px solid;
+    padding-left: 15px;
+  }
+
+  .page{
+    padding-top: 60px;  
+
+    @include iPad() {
+      padding-top: 40px;  
+    }
+    @include iPhone6() {
+      padding-top: 24px;  
+    }
+
+  }
+
+  @include iPad() {
+    padding: 60px 0 90px;
+  }
+  @include iPhone6() {
+    padding: 28px 0 56px;
+  }
+
+
+
+}
+
+
+
+
+
+
 // @include desktop(){
 // }
 // @include iPad(){

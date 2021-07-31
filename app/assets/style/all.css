@@ -993,4 +993,97 @@ a:hover {
     font-size: 24px;
   }
 }
+
+.mainIn {
+  padding: 96px 0 160px;
+}
+
+.mainIn h1.inTit {
+  font-size: 48px;
+  line-height: 1.5;
+  color: #000000;
+  border-left: #650300 8px solid;
+  padding-left: 15px;
+}
+
+.mainIn .page {
+  padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .mainIn .page {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 414px) {
+  .mainIn .page {
+    padding-top: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainIn {
+    padding: 60px 0 90px;
+  }
+}
+
+@media (max-width: 414px) {
+  .mainIn {
+    padding: 28px 0 56px;
+  }
+}
+
+.qaBg {
+  color: #000000;
+  line-height: 1.5;
+}
+
+.qaBg h2 {
+  font-size: 32px;
+}
+
+.qaArea {
+  margin-top: 36px;
+}
+
+.qaArea li {
+  padding: 0 0 32px;
+}
+
+.qaArea li h3 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.qaArea li p {
+  font-size: 16px;
+  margin-left: 95px;
+}
+
+@media (max-width: 768px) {
+  .qaArea {
+    padding: 0 0 24px;
+  }
+  .qaArea h3 {
+    font-size: 20px;
+  }
+  .qaArea p {
+    font-size: 16px;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 414px) {
+  .qaArea {
+    padding-top: 20px;
+  }
+  .qaArea h3 {
+    font-size: 16px;
+  }
+  .qaArea p {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+}
 /*# sourceMappingURL=all.css.map */

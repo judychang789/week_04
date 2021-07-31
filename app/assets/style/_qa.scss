@@ -1,0 +1,49 @@
+
+
+.qaBg{
+    color: $info;
+    line-height: 1.5;
+    h2{
+        font-size: 32px;
+    }
+
+}
+
+.qaArea{
+    margin-top: 36px;
+    li{
+        padding: 0 0 32px;
+        h3{
+            font-size: $font-nl;
+            font-weight: bolder;
+        } 
+        p{
+            font-size: $font-sl;
+            margin-left: 95px;
+        }
+    }
+    @include iPad() {
+        padding: 0 0 24px;
+        h3{
+            font-size: $font-nl;
+        } 
+        p{
+            font-size:$font-sl;
+            margin-left: 60px;
+        }
+    }
+    @include iPhone6() {
+        padding-top: 20px;  
+        h3{
+            font-size: $font-sl;
+        } 
+        p{
+            font-size:$font-fl;
+            margin-left: 0px;
+        }
+    }
+}
+
+
+
+
