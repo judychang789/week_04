@@ -1,0 +1,18 @@
+
+@mixin desktop{
+    @media (max-width: 1200px){
+      @content
+    }
+}
+
+@mixin iPad{
+    @media (max-width: 768px){
+      @content
+    }
+}
+
+@mixin iPhone6{
+    @media (max-width: 414px){
+      @content
+    }
+}

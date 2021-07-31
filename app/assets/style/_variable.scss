@@ -71,24 +71,6 @@ $font-fl:14px;      //$font-fl代表版腳的字級
 
 
 
-@mixin desktop{
-    @media (max-width: 1200px){
-      @content
-    }
-}
-
-@mixin iPad{
-    @media (max-width: 768px){
-      @content
-    }
-}
-
-@mixin iPhone6{
-    @media (max-width: 414px){
-      @content
-    }
-}
-
 
 // .main{
 //     display: none;    

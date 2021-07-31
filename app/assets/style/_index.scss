@@ -43,7 +43,6 @@
         .container {
             h2 {
                 font-size: 28px;
-
                 span {
                     font-size: $font-sl;
                 }
@@ -65,7 +64,7 @@
     background-color: $secondary;
     padding: 60px 0 80px;
 
-    ul.indexService {
+   .indexService {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -79,7 +78,7 @@
     }
 
     @include iPad() {
-        ul.indexService {
+        .indexService {
             margin: 0 -15px -55px;
 
             li {
@@ -90,7 +89,7 @@
     }
 
     @include iPhone6() {
-        ul.indexService {
+        .indexService {
             margin: 0 0px -40px;
 
             li {
@@ -101,7 +100,7 @@
     }
 }
 
-ul.indexService {
+.indexService {
     img {
         width: 84px;
         height: 84px;
@@ -139,7 +138,7 @@ ul.indexService {
 .indexFrameBg {
     padding: 60px 0 80px;
 
-    ul.indexFrame {
+    .indexFrame {
         margin: -16px 0;
 
         li {
@@ -156,7 +155,7 @@ ul.indexService {
     }
 
     @include iPad() {
-        ul.indexFrame {
+        .indexFrame {
             margin: -10px 0;
 
             li {
@@ -172,7 +171,7 @@ ul.indexService {
     }
 
     @include iPhone6() {
-        ul.indexFrame {
+        .indexFrame {
             margin-bottom: -8px;
 
             li {
@@ -396,7 +395,9 @@ ul.indexService {
 
 
 .indexRecommendBg {
-    img {}
+    img {
+
+    }
 
     .bottom {
         padding: 16px;

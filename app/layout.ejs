@@ -1,24 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang=zh-TW> 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
-  <link rel="stylesheet" href="./assets/style/all.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+
+    <!--RWD-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <!--安卓手機板網址顏色-->
+    <meta name="theme-color" content="#AA0601">
+    
+    <title><%- title %></title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" type="text/javascript" ></script>
+    <link rel="stylesheet" href="assets/style/all.css">
+
 </head>
 
 <body>
-  <header class="header">
-    這是 header
+
+
+
+
+
+  <!--版頭-->
+  <header class="header" id="top">
+
+      <!-- <div class="container"> -->
+
+          <h1 class="logo">
+              <a href="#">
+                  glasses
+                  <!-- <img src="https://hexschool.github.io/webLayoutTraining1st/week3/logo.png" alt=""> -->
+              </a>
+          </h1>
+          <!--主按鍵-->
+          <ul class="navbar">
+  
+              <li class="nav">
+                  <a href="#">
+                      系列鏡框
+                  </a>
+              </li>
+              <li class="nav">
+                  <a href="#">
+                      門市據點
+                  </a>
+              </li>
+              <li class="nav">
+                  <a href="#">
+                      部落格
+                  </a>
+              </li>
+              <li class="nav">
+                  <a href="#">
+                      常見問題
+                  </a>
+              </li>
+  
+          </ul>
+
+      <!-- </div> -->
+
   </header>
 
-  <%- contents %>
+  <!-- 內容 -->
+  <div class="main">
 
+    <%- contents %>
+
+  </div>
+
+  <!-- 版腳 -->
   <footer class="footer">
-    footer
+      <div class="container">
+
+          <!-- 版腳上 -->
+          <div class="footerT">
+
+              <div class="footerTL">
+
+                  <!-- 版腳主案件 -->
+                  <ul class="navbar_f">
+
+                      <li class="nav_f">
+                          <a href="#">首頁</a>
+                      </li>
+                      <li class="nav_f">
+                          <a href="#">系列鏡框</a>
+                      </li>
+                      <li class="nav_f">
+                          <a href="#">門市據點</a>
+                      </li>
+                      <li class="nav_f">
+                          <a href="#">部落格</a>
+                      </li>
+                      <li class="nav_f">
+                          <a href="#">常見問題</a>
+                      </li>
+                  </ul>
+
+                  <!-- 聯絡資訊 -->
+                  <ul class="contactDetails">
+                      <li>
+                          <img src="https://hexschool.github.io/webLayoutTraining1st/week3/icon-phone.svg" alt="">
+                          <a href="tel:0800-000-000">0800-000-000</a>
+                      </li>
+                      <li>
+                          <img src="https://hexschool.github.io/webLayoutTraining1st/week3/icon-mail.svg" alt="">
+                          <a href="mailto:glasses@business.com">glasses@business.com</a>
+                      </li>
+                  </ul>
+
+              </div>
+
+              <div class="footerTR">
+                  <!-- 版腳社群 -->    
+                  <ul class="CommunityArea">
+                      <li>
+                          <a href="#">
+                              <img src="https://hexschool.github.io/webLayoutTraining1st/week3/icon-fb.svg">
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <img src="https://hexschool.github.io/webLayoutTraining1st/week3/icon-ig.svg">
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <img src="https://hexschool.github.io/webLayoutTraining1st/week3/icon-line.svg">
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+
+          </div>
+
+          <!-- 版腳下 -->
+          <div class="footerCopyLink">
+
+              <div class="copyright">
+                  <p>
+                      Copyright © 2020 Glasses.All rights reserved.
+                  </p>
+              </div>
+
+              <!-- 版腳連結 -->
+              <ul class="link_f">
+
+                  <li>
+                      <a href="">隱私權政策</a>
+                  </li>
+                  <li>
+                      <a href="">服務條款</a>
+                  </li>
+              </ul>
+              
+          </div>
+
+      </div>
   </footer>
+
+
+
+
+
+
+
+
+
+
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
