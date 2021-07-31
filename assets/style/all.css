@@ -789,21 +789,21 @@ a {
     .qaArea li p {
       font-size: 16px;
       margin-left: 95px; }
-  @media (max-width: 768px) {
-    .qaArea {
-      padding: 0 0 24px; }
-      .qaArea h3 {
-        font-size: 20px; }
-      .qaArea p {
-        font-size: 16px;
-        margin-left: 60px; } }
-  @media (max-width: 414px) {
-    .qaArea {
-      padding-top: 20px; }
-      .qaArea h3 {
-        font-size: 16px; }
-      .qaArea p {
-        font-size: 14px;
-        margin-left: 0px; } }
+    @media (max-width: 768px) {
+      .qaArea li {
+        padding: 0 0 24px; }
+        .qaArea li h3 {
+          font-size: 20px; }
+        .qaArea li p {
+          font-size: 16px;
+          margin-left: 60px; } }
+    @media (max-width: 414px) {
+      .qaArea li {
+        padding-top: 20px; }
+        .qaArea li h3 {
+          font-size: 16px; }
+        .qaArea li p {
+          font-size: 14px;
+          margin-left: 0px; } }
 
 /*# sourceMappingURL=all.css.map */
